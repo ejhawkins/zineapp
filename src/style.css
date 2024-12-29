@@ -1,0 +1,339 @@
+html{
+  background-color: #ff5233;
+  font-size: 15px;
+}
+
+.introduction-load {
+  /*background-color: #ff5233;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;*/
+  margin-top: -20%;
+  text-align: center;
+  background-color: #ff5233;
+}
+
+.introduction-load .overlap-wrapper {
+  background-color: #ff5233;
+  padding: 14%;
+}
+
+.introduction-load .overlap {
+  position: relative;
+}
+
+.introduction-load .iphone-plus {
+  background-color: #261822;
+  margin: 0 auto;
+}
+
+.introduction-load .overlap-group {
+  height: 444px;
+  width: 330px;
+}
+
+.introduction-load .beyonce {
+  height: 202px;
+  left: 55px;
+  object-fit: cover;
+  position: absolute;
+  top: 242px;
+  width: 216px;
+}
+
+
+.introduction-load .IMG {
+  height: 229px;
+  left: 23px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 248px;
+}
+
+.introduction-load .ENTRIES-ABOUT-MUSIC {
+  color: #cc1f2d;
+  font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+  font-size: .8rem;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 2.6px;
+  line-height: normal;
+}
+
+.introduction-load .image {
+  height: 225px;
+  left: 119px;
+  object-fit: cover;
+  position: absolute;
+  top: 523px;
+  width: 144px;
+}
+
+.introduction-load .text-wrapper {
+  color: #cc1f2d;
+  font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+  font-size: .8rem;
+  font-weight: 400;
+  letter-spacing: 2.6px;
+  line-height: normal;
+  margin-bottom: 25%;
+}
+
+.introduction-load .div {
+  background-color: #ff5233;
+  left: 833px;
+  position: absolute;
+  top: 0;
+  width: 93px;
+}
+
+.introduction-load .rectangle-2 {
+  background-color: #ff5233;
+  height: 926px;
+  left: 498px;
+  position: absolute;
+  top: 0;
+  width: 92px;
+}
+
+.introduction-load .rectangle-3 {
+  background-color: #ff5233;
+  height: 926px;
+  left: 417px;
+  position: absolute;
+  top: -417px;
+  transform: rotate(90deg);
+  width: 92px;
+}
+
+.introduction-load .rectangle-4 {
+  background-color: #ff5233;
+  height: 926px;
+  left: 417px;
+  position: absolute;
+  top: 417px;
+  transform: rotate(90deg);
+  width: 92px;
+}
+
+.introduction-load .WE-SEEK-EXPERIENCES {
+  color: #d7d4c9;
+  font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+  font-weight: 400;
+  letter-spacing: 5.2px;
+  line-height: normal;
+  text-shadow: 0px 4px 4px #00000040;
+  margin-top: 15%;
+  font-size: 1.10rem;
+}
+
+.introduction-load .text-wrapper-2 {
+  color: #d7d4c9;
+  font-family: "Field Gothic-No.84Demi XWide", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 679px;
+  letter-spacing: -6.72px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  white-space: nowrap;
+  width: 284px;
+}
+
+.introduction-load .ellipse {
+  background-color: #d7d4c9;
+  border-radius: 30px;
+  height: 60px;
+  left: 674px;
+  position: absolute;
+  top: 15px;
+  width: 60px;
+}
+
+.introduction-load .line {
+  height: 1px;
+  left: 686px;
+  object-fit: cover;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+.introduction-load .img {
+  height: 1px;
+  left: 686px;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 38px;
+}
+
+.introduction-load .line-2 {
+  height: 1px;
+  left: 686px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 38px;
+}
+
+.introduction-load .ellipse-2 {
+  border: 3px solid;
+  border-color: #d7d4c9;
+  border-radius: 100%;
+  width: 50%;
+  margin-left: auto;
+  /* margin: 0 auto; */
+  margin-right: auto;
+}
+
+
+
+.introduction-load .HOLD-HERE-TO-EXPLORE {
+  color: #d7d4c9;
+  font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+  font-size: .9rem;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: normal;
+  text-align: center;
+  margin-left: auto;
+  padding: 30%;
+  /* margin: 0 auto; */
+  margin-right: auto;
+}
+
+.introduction-load .vector {
+  height: 21px;
+  left: 535px;
+  position: absolute;
+  top: 39px;
+  width: 21px;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #cc1f2d;
+}
+
+
+
+.horizontal-scroll-container {
+  display: flex; /* Arrange sections horizontally */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /* Enable snapping */
+  background-color: #261822;
+  width: 100%;
+  height: 90vh;
+}
+
+.scroll-section {
+  flex: 0 0 100vw; /* Each section takes full viewport width */
+  scroll-snap-align: start; /* Snap to the start of the section */
+  /* Add more styles as needed */
+}
+
+.container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.item {
+  display: inline-block; /* Display items inline */
+  /* Add your desired styles for item appearance */
+  margin: auto 0; /* Center items vertically */
+  width: 100%; /* Each item takes full width */
+}
+
+
+.my-logo{
+  z-index: 100;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.my-logo svg{
+  width: 90%;
+  height: 90%;
+}
+
+.item-desktop{
+  display: none;
+}
+
+@media (min-width: 890px) and (max-width: 2256px) { /* Your styles for screens between 1024px and 1440px go here */
+  /* Your styles for screens wider than 2560px go here */
+  html {
+    font-size: 25px; /* Adjust font size as needed */
+  }
+
+  .introduction-load{
+    text-align: left;
+  }
+  /* Other styles for larger screens */
+
+  .item{
+    display: none;
+  }
+
+  .item-desktop{
+    padding: 5%;
+    display: inline-block; /* Display items inline */
+    /* Add your desired styles for item appearance */
+    margin: auto 0; /* Center items vertically */
+    width: 100%; /* Each item takes full width */
+  }
+  .introduction-load .HOLD-HERE-TO-EXPLORE-desktop{
+    color: #d7d4c9;
+    font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.84px;
+    line-height: normal;
+    text-align: left;
+    width: 100%;
+  }
+  .introduction-load .text-wrapper{
+    margin-bottom: 0;
+  }
+  .introduction-load .WE-SEEK-EXPERIENCES{
+    margin-top: 0;
+  }
+  .horizontal-scroll-container{
+    height: 70vh;
+  }
+}
+
+@media (max-width: 575px) { 
+  .introduction-load .ellipse-2 {
+    font-size: .5rem;
+  }
+  .introduction-load .text-wrapper {
+    color: #cc1f2d;
+    font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: 2.6px;
+    line-height: normal;
+    margin-bottom: 10%;
+  }
+  .introduction-load .HOLD-HERE-TO-EXPLORE{
+    color: #d7d4c9;
+    font-family: "Field Gothic No.84 Demi XWide", Helvetica;
+    font-size: .75rem;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduction-load .HOLD-HERE-TO-EXPLORE{
+    padding: 24%;
+  }
+}
